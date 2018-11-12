@@ -2,121 +2,114 @@
 <html lang="en">
 
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Template CSS de la mort</title>
-
   </head>
+
 
   <body>
 
     <!-- Navigation bar-->
     <div class="navbar">
-      <a href="#" class="pull-left"><img src="https://images.unsplash.com/photo-1516876437184-593fda40c7ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4641a1803bdada8753fd386e650e66c5&auto=format&fit=crop&w=2552&q=80" width="75" height="75" /></a> 
-        <div class="navbar-right">
-          <a class="active" href="#home">Home</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-          <div class="dropdown" style="float:right;">
-          <img class="avatar" src="https://placeimg.com/640/480/animals" width="36" height="36"/>
-            <i class="fa fa-caret-down"></i>
-              <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
-            </div> 
-          </div>
-    </div>
+      <!-- Logo on the left-->
+      <a href="#"><img class="navbar-logo" src="https://images.unsplash.com/photo-1516876437184-593fda40c7ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4641a1803bdada8753fd386e650e66c5&auto=format&fit=crop&w=2552&q=80" width="100" height="75" /></a>
 
+      <!-- 3 links on the right and one dropdown-->  
+      <div class="navbar-right" style="float:right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#news">Content</a></li>
+        <li class="dropdown">
+        <a><img class="avatar" src="https://placeimg.com/640/480/animals" width="36" height="36"/></a>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </li>
+      </div>
+    </div>
 
     <!-- Section -->
     <section>
+      <!-- Background between navbar and tabs bar -->
+      <div class="background"><img src="https://images.unsplash.com/photo-1509225770129-fbcf8a696c0b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5cf0190f5eca74d8be2aba992a07402b&auto=format&fit=crop&w=2559&q=80" alt="background_img"/></div>
 
-
-    <div class="background"><img src="https://images.unsplash.com/photo-1509225770129-fbcf8a696c0b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5cf0190f5eca74d8be2aba992a07402b&auto=format&fit=crop&w=2559&q=80" alt="background_img"/></div>
-
+    <!-- Tabs bar -->
     <ul class="PrimaryNav with-indicator">
       <li class="Nav-item"><a href="#"><small>Abonnements : </small>96</a></li>
       <li class="Nav-item is-active"><a href="#"><small>Abonnés : </small>12,5M</a></a></li>
       <li class="Nav-item"><a href="#"><small>Likes : </small>2,3k</a></li>
     </ul>
 
-<div class="center">
+    <!-- Main page -->
+    <div class="center">
 
-<button class="button" style="vertical-align:middle"><span>Poster une nouvelle photo</span></button>
+      <div class="row">
+        <button class="button" style="vertical-align:middle"><span>Poster une nouvelle photo</span></button>
+      </div>
+    </div>
 
-<div class="row">
-  <div class="column">
-<div class="container">
-
-<div class="card">
-    <a href="#">
-        <!-- Image à la une -->
-        <div class="card-image"><img src="https://damienflandrin.fr/storage/tutoriel-realiser-une-carte-en-css/card-image.jpg" alt="Orange" /></div>
-        <!-- Fin de l'image à la une -->
-
-        <!-- Corps de notre carte -->
-        <div class="card-body">
-
-            <!-- Date de publication de l'article-->
-            <div class="card-date">
-                <time>4 Septembre 1994</time>
+    <div class="center">
+        <div class="row">
+          <div class="column">
+            <div class="container">
+              <div class="card">
+                <a href="#">
+                  <!-- Corps de notre carte -->
+                  <div class="card-image"><img src="https://damienflandrin.fr/storage/tutoriel-realiser-une-carte-en-css/card-image.jpg" alt="Orange" /></div>
+                  <div class="card-body">
+                    <!-- Date de publication de l'article-->
+                    <div class="card-date">
+                      <time>4 Septembre 1994</time>
+                    </div>
+                    <!-- Titre de l'article -->
+                    <div class="card-title">
+                      <h3>Lorem Ipsum</h3>
+                    </div>
+                    <!-- Extrait de l'article -->
+                    <div class="card-excerpt">
+                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
+                    </div>
+                  </div>
+                  <!-- Fin du corps de notre carte -->
+                </a>
+              </div>
             </div>
+          </div>
 
-            <!-- Titre de l'article -->
-            <div class="card-title">
-                <h3>Lorem Ipsum</h3>
+          <div class="column">
+            <div class="card">
+              <div class="container">
+                <a href="#">
+                  <div class="card-image"><img      src="https://images.unsplash.com/photo-1513985768785-f12f38ce03cb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1eb9fd6388ea9c35e1c7731a8d9e0bdf&auto=format&fit=crop&w=2550&q=80" alt="Landscape" />
+                    </div>
+                  <!-- Corps de notre carte -->
+                  <div class="card-body">
+                    <!-- Date de publication de l'article-->
+                    <div class="card-date">
+                      <time>20 Novembre 1992</time>
+                    </div>
+                    <!-- Titre de l'article -->
+                    <div class="card-title">
+                      <h3>Lorem Ipsum</h3>
+                    </div>
+                    <!-- Extrait de l'article -->
+                    <div class="card-excerpt">
+                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
+                    </div>
+                  </div>
+                  <!-- Fin du corps de notre carte -->
+                </a>
+              </div>
             </div>
-            <!-- Extrait de l'article -->
-            <div class="card-excerpt">
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
-            </div>
-
+          </div>
         </div>
-        <!-- Fin du corps de notre carte -->
-    </a>
-</div>
-</div>
-</div>
-
- <div class="column">
-
-<div class="card">
-    <a href="#">
-        <!-- Image à la une -->
-        <div class="card-image"><img src="https://images.unsplash.com/photo-1513985768785-f12f38ce03cb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1eb9fd6388ea9c35e1c7731a8d9e0bdf&auto=format&fit=crop&w=2550&q=80" alt="Landscape" /></div>
-        <!-- Fin de l'image à la une -->
-
-        <!-- Corps de notre carte -->
-        <div class="card-body">
-
-            <!-- Date de publication de l'article-->
-            <div class="card-date">
-                <time>20 Novembre 1992</time>
-            </div>
-
-            <!-- Titre de l'article -->
-            <div class="card-title">
-                <h3>Lorem Ipsum</h3>
-            </div>
-            <!-- Extrait de l'article -->
-            <div class="card-excerpt">
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
-            </div>
-
-        </div>
-        <!-- Fin du corps de notre carte -->
-    </a>
-</div>
-</div>
-</div>
-</div>
-
+    </div>
 
     </section>
 
