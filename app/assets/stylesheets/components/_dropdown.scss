@@ -1,8 +1,9 @@
 
 /* The dropdown container */
 .dropdown {
-  float: left;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Dropdown content (hidden by default) */
