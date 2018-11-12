@@ -34,8 +34,8 @@
 
 .card-body {
   text-align:center;  /*1*/
-padding: 15px 20px; /*2*/
-box-sizing: border-box; /*3*/
+  padding: 15px 20px; /*2*/
+  box-sizing: border-box; /*3*/
 }
 
 .card-date {
@@ -43,7 +43,7 @@ box-sizing: border-box; /*3*/
 }
 
 .card-title, .card-excerpt {
-   font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .card-date, .card-title {
