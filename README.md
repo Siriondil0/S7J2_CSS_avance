@@ -20,4 +20,4 @@ Il faudra que tu codes les éléments suivants :
 Hai-Dang Ha-Thuc  slack/  @Hai-Dang
 
 
-     :end: :end: :end: :end: :end: :end: :end: :end: :end:
+:end: :end: :end: :end: :end: :end: :end: :end: :end:
