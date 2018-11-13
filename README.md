@@ -1,25 +1,23 @@
-# README
+# THP Semaine 7 Jour 2
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Exercice provenant de [The Hacking Project](https://www.thehackingproject.org/)
+                         
+## Projet : UI Sprint Design :cool:
 
-Things you may want to cover:
+### Enoncé
 
-* Ruby version
+Il faudra que tu codes les éléments suivants :
+* un bouton digne de ce nom
+* un avatar
+* une card
+* une navbar
+* une tabs
 
-* System dependencies
+### Lien Heroku :
+[Lien exo sur Heroku](https://s7j2-css-avance.herokuapp.com/)
 
-* Configuration
+### Réalisé par :tea: :
+Hai-Dang Ha-Thuc  slack/  @Hai-Dang
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# S7J2_CSS_avance
+     :end: :end: :end: :end: :end: :end: :end: :end: :end:
